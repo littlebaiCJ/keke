@@ -1,0 +1,40 @@
+.is-ie{
+    display: block !important;
+}
+body {
+    text-align: center;
+    padding-top: 30px;
+    background: #f0f0f0;
+}
+
+img {
+    border: none;
+}
+
+h2,
+h3,
+h4 {
+    color: #666;
+    font-family: arial;
+}
+
+strong {
+    border-bottom: 1px dotted #930;
+    font-weight: normal;
+    padding-bottom: 2px;
+    color: #930;
+}
+
+p {
+    padding: 50px 0;
+    letter-spacing: 20px;
+}
+
+h4 {
+    font-weight: normal;
+}
+
+.no-ie {
+    display: none;
+    visibility: hidden;
+}
